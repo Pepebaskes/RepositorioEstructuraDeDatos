@@ -4,11 +4,12 @@ package repaso2venta;
 import java.util.Scanner;
 
 /**
- *
+ *Movimos el constructor vacio pporque no me dejaba usar la fokin clase 
  * @author rafae
  */
 public class ScannerProducto {
     
+    //
     public Producto nextProducto(){
         Scanner leer = new Scanner(System.in);      
         var producto = new Producto();
